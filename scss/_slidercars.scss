@@ -1,0 +1,101 @@
+.slider-cars{
+    margin-top: 180px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.img_slidsone{
+    width: 416px;
+    height: 350px;
+    background-image: url('../image/Rectangle\ 45.png');
+    position: relative;
+}
+.img_slidstwo{
+    width: 416px;
+    height: 350px;
+    background-image: url('../image/Rectangle\ 47.png');
+    position: relative;
+}
+.img_slidsthree{
+    width: 416px;
+    height: 350px;
+    background-image: url('../image/Rectangle\ 49.png');
+    position: relative;
+}
+.image-slider_image{
+    display: flex;
+    align-items: center;
+    margin-right: 400px;
+    gap: 24px;
+}
+.butprev{
+    width: 50px;
+    height: 50px;
+    transform: rotate(-45deg);
+    border: 3px solid #DB3138;
+    position: relative;
+    cursor: pointer;
+    bottom: 180px;
+    right: 106px;
+}
+.butprevarrow{
+    background-image: url('../image/dashicons_arrow-left-alt2.svg');
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    transform: rotate(45deg);
+}
+.butnext{
+    width: 50px;
+    height: 50px;
+    transform: rotate(-45deg);
+    border: 3px solid #DB3138;
+    position: relative;
+    cursor: pointer;
+    bottom: 230px;
+    left: 1180px;
+}
+.butnextarrow{
+    background-image: url('../image/dashicons_arrow-left-alt2.svg');
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 11px;
+    top: 10px;
+    transform: rotate(-135deg);
+}
+
+.slidetxt__one{
+    background-color: #DB3138;
+    max-width: 316px;
+    max-height: 70px;
+    min-width: 316px;
+    min-height: 70px;
+    position: absolute;
+    top: 315px;
+    left: 25px;
+    padding: 10px;
+    transition: transform .6s ease;
+
+    &:hover{
+        transform: translate(-5px, -5px);
+        transition: transform .6s ease;
+    }
+
+
+    & span{
+        color: white;
+        display: flex;
+        justify-content: center;
+        max-width: 286px;
+        max-height: 70px;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 140%;
+        letter-spacing: 0.9px;
+        transform: translateY(10px);
+    }
+}

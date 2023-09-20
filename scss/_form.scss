@@ -1,0 +1,248 @@
+.title__form{
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; 
+    letter-spacing: 2.6px;
+    text-transform: uppercase;
+    position: relative;
+
+    &::before{
+        content: '';
+        position: absolute;
+        width: 146px;
+        height: 14px;
+        background-image: url('../image/Group\ 2.svg');
+        bottom: -50px;
+        left: 46%;
+    }
+}
+form{
+    transform: translate(30%, 121px);
+
+    & a{
+        color: white;
+        transition: color .3s ease;
+    }
+}
+.input-phone-name{
+    display: flex;
+    gap: 24px;
+
+    & input{
+        width: 306px;
+        height: 47px;
+        background-color: transparent;
+        font-size: 16px;
+        padding-left: 25px;
+        padding-top: 15px;
+        padding-bottom: 10px;
+        border: 2px solid rgba(255, 255, 255, 0.5);
+        transition-duration: 0.5s;
+        color: white;
+    }
+
+    & input::placeholder{
+        font-size: 16px;
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    & input:focus{
+        border-color: #DB3138;
+        transition-duration: 0.5s;
+    }
+
+    & input:focus::placeholder{
+        color: white;
+        transition-duration: 0.5s;
+    }
+}
+
+// Textaria socialiti
+
+.textaria--socialiti{
+    max-width: 646px;
+    padding-top: 24px;
+
+
+    & textarea{
+        width: 526px;
+        height: 150px;
+        background-color: transparent;
+        border: 2px solid rgba(255, 255, 255, 0.5);
+        padding-top: 15px;
+        padding-left: 25px;
+        padding-right: 15px;
+        resize: none;
+        color: white;
+        font-size: 16px;
+        transition-duration: 0.5s;
+    }
+
+    & textarea:focus{
+        border-color: #DB3138;
+        transition-duration: 0.5s;
+    }
+
+    & textarea:focus::placeholder{
+        color: white;
+        transition-duration: 0.5s;
+    }
+
+    & textarea::placeholder{
+        font-size: 16px;
+         font-weight: 600;
+         line-height: 140%; 
+        letter-spacing: 0.8px;
+        text-transform: uppercase;
+        transition-duration: 0.5s;
+    }
+}
+
+.textaria--socialiti{
+    display: flex;
+    gap: 70px;
+}
+
+// SOC icon
+
+.soc-seti{
+       display: flex;
+       flex-direction: column;
+       gap: 15px;
+}
+.soc--form{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #898989;
+    padding: 10px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.tg:hover{
+    background-color: rgb(18, 157, 232);
+    transition-duration: 0.5s;
+}
+.yt:hover{
+    background-color: rgb(232, 18, 18);
+    transition-duration: 0.5s;
+}
+.wk:hover{
+    background-color: rgb(8, 0, 253);
+    transition-duration: 0.5s;
+}
+
+// Button ROW 
+
+.button__row--body{
+    padding-top: 24px;
+    display: flex;
+    align-items: flex-start;
+}
+.button--form{
+    width: 71px;
+    height: 61px;
+    background-color: #DB3138;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-bottom: 5px;
+    position: absolute;
+    transition: width 0.5s ease;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 140%; 
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+
+    &:hover{
+        width: 225px;
+        transition: width 0.5s ease;
+        padding-right: 25px;
+    }
+}
+
+// Loc-phone-email
+
+.form__dilegetion{
+    display: flex;
+    flex-direction: column;
+    margin-left: 370px;
+    gap: 15px;
+}
+.location--form{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    color: white;
+    max-width: 293px;
+    position: relative;
+
+    &:before{
+        content: '';
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        background-image: url('../image/carbon_location-filled.svg');
+        background-repeat: no-repeat;
+        left: -34px;
+    }
+}
+.delegetion--phone-email{
+    display: flex;
+    align-items: center;
+    gap: 64px;
+}
+.phone--form{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 140%; 
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    position: relative;
+
+    &::before{
+        content: '';
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        background-image: url('../image/ci_phone.svg');
+        background-repeat: no-repeat;
+        left: -34px;
+    }
+
+    &:hover a{
+        color: rgba(238, 238, 101, 0.7);
+        text-decoration: underline;
+        transition: color .3s ease;
+    }
+}
+.email--form{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 140%; 
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    position: relative;
+
+    &::before{
+        content: '';
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        background-image: url('../image/fluent_mail-28-filled.svg');
+        background-repeat: no-repeat;
+        left: -34px;
+    }
+
+    &:hover a{
+        color: rgba(238, 238, 101, 0.7);
+        text-decoration: underline;
+        transition: color .3s ease;
+    }
+}

@@ -1,0 +1,99 @@
+.column_img--one{
+    border-radius: 5px;
+}
+
+.advantages__row{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.arrow--two{
+    position: absolute;
+    top: 738px;
+}
+ 
+
+// Card
+
+.table__column--two{
+    max-width: 526px;
+    max-height: 662px;
+}
+.text__advantegs--body{
+
+}
+.title--polirol{
+    margin-top: 14px;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 1.6px;
+    line-height: 140%;
+    text-transform: uppercase;
+    position: relative;
+
+    &::before{
+        content: '';
+        position: absolute;
+        width: 70px;
+        height: 56px;
+        background-image: url('../image/Group\ 55.svg');
+        left: -40px;
+    }
+}
+.txt--polirol{
+    max-width: 526px;
+    font-weight: 24;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 0.72px;
+    color: white;
+    margin-top: 43px;
+    position: relative;
+
+    &::after{
+        content: '';
+        width: 146px;
+        height: 14px;
+        background-image: url('../image/Group\ 2.svg');
+        position: absolute;
+        bottom: -45px;
+        left: 30%;
+    }
+}
+.body--one{
+    margin-top: 85px;
+}
+.title--work{
+    margin-left: 20px;
+}
+.title--work:before{
+    content: '';
+    position: absolute;
+    width: 70px;
+    height: 56px;
+    background-image: url('../image/Group\ 53.svg');
+    background-repeat: no-repeat;
+    left: -60px;
+}
+.body--two{
+    margin-top: 85px;
+}
+.title--masters{
+    margin-left: 30px;
+
+    &::before{
+        content: '';
+        position: absolute;
+        width: 70px;
+        height: 56px;
+        background-image: url('../image/Group\ 52.svg');
+        background-repeat: no-repeat;
+        left: -70px;
+    }
+}
+.txt--masters::after{
+    display: none;
+}

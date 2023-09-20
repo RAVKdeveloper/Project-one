@@ -1,0 +1,125 @@
+*{
+    padding:0%;
+    margin: 0%;
+    border: 0;
+}
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea{font-family:inherit;}
+
+input::ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding: 0;border: 0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style-type: none;}
+ing{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
+
+@import './header';
+@import './achivments';
+@import './slidercars';
+@import './ctacard';
+@import './service';
+@import './advantages';
+@import './outworks'; 
+@import './form';
+@import './footer';
+
+html,body{
+font-family: Arial, Helvetica, sans-serif;
+overflow-x: hidden;
+}
+main{
+    width: 1920px;
+    height: 6028px;
+    background-color: #141414;
+    padding-bottom: 30px;
+}
+.section-one{
+    transform: translate(0,180px);
+    padding-left: 200px;
+    padding-right: 312px;
+}
+.cta__section{
+    padding-top: 180px;
+}
+.service{
+    padding-top: 180px;
+}
+.advantages{
+    padding-top: 180px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    max-width: 1420px;
+}
+.form{
+    padding-top: 120px;
+    max-width: 1520px;
+}
+footer{
+    padding-top: 130px;
+    padding-left: 30px;
+    padding-right: 70px;
+    padding-bottom: 30px;
+    background-color: #141414;
+    max-width: 1520px;
+    position: relative;
+}
+
+
+// Validation
+
+.error input{
+    box-shadow: 0 0 15px rgb(227, 75, 101);
+}
+.error_label {
+    color: red;
+    position: absolute;
+    top: 47px;
+    left: 0;
+    padding: 5px;
+}
+.input-box{
+    position: relative;
+}
+.input-box--two{
+    position: relative;
+}
+
+// Textaria
+
+.error-text textarea{
+    box-shadow: 0 0 8px rgb(227, 75, 101);
+}
+.textarea-box{
+    position: relative;
+}
+.error_labeltext{
+    color: red;
+    position: absolute;
+    top: 153px;
+    left: 0;
+    padding: 5px;
+}

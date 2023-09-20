@@ -1,0 +1,203 @@
+.cta__row{
+    display: flex;
+}
+.cta_content{
+    max-width: 606px;
+    max-height: 622px;
+}
+.cta-title--one{
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    line-height: 140%;
+    position: relative;
+    left: 200px;
+
+    &::before{
+        content: '';
+        position: absolute;
+        background-image: url('../image/Group\ 53\ \(1\).svg');
+        width: 53px;
+        height: 70px;
+        left: -90px;
+        top: -15px;
+        border-right: 2px solid white;
+    }
+}
+.cta-text--one{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 120%;
+    color: white;
+    letter-spacing: 0.72;
+    top: 43px;
+    left: 200px;
+    position: relative;
+
+    &::after{
+        content: '';
+        position: absolute;
+        background-image: url('../image/Group\ 2.svg');
+        width: 146px;
+        height: 14px;
+        left: 170px;
+        top: 140px;
+    }
+}
+.cta-column-two{
+    margin-top: 180px;
+}
+.cta-title--two{
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    line-height: 140%;
+    position: relative;
+    left: 200px;
+
+    &::before{
+        content: '';
+        position: absolute;
+        background-image: url('../image/Group\ 52.svg');
+        background-repeat: no-repeat;
+        width: 70px;
+        height: 45px;
+        left: -90px;
+        top: 4px;
+    }
+}
+.cta-text--two{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 120%;
+    color: white;
+    letter-spacing: 0.72;
+    top: 43px;
+    left: 200px;
+    position: relative;
+
+    &::after{
+        content: '';
+        position: absolute;
+        background-image: url('../image/Group\ 2.svg');
+        width: 146px;
+        height: 14px;
+        left: 170px;
+        top: 140px;
+    }
+}
+.cta-column-three{
+    margin-top: 160px;
+}
+.cta-title--three{
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    line-height: 140%;
+    position: relative;
+    left: 200px;
+
+    &::before{
+        content: '';
+        position: absolute;
+        background-image: url('../image/Group\ 54.svg');
+        background-repeat: no-repeat;
+        width: 70px;
+        height: 45px;
+        left: -90px;
+        top: -5px;
+    }
+}
+.cta-text--three{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 120%;
+    color: white;
+    letter-spacing: 0.72;
+    top: 43px;
+    left: 200px;
+    position: relative;
+}
+
+.cta_img{
+    margin-left: 244px;
+    position: relative;
+
+    & img{
+        border-radius: 5px;
+    }
+}
+
+.txt--cta{
+    max-width: 522px;
+    max-height: 50px;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 140%;
+    letter-spacing: 0.9px;
+    color: white;
+    position: relative;
+    left: 15%;
+    top: 50px;
+}
+.two--slider{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 538px;
+}
+.two--butprev{
+    width: 50px;
+    height: 50px;
+    transform: rotate(-45deg);
+    border: 3px solid #DB3138;
+    position: relative;
+    cursor: pointer;
+    transition: all .5s ease;
+
+    & div{
+        background-image: url('../image/dashicons_arrow-left-alt2.svg');
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        left: 5px;
+        top: 5px;
+        transform: rotate(45deg);
+    }
+
+    &:hover{
+        transform: translate(-7px, -7px) rotate(-45deg);
+        transition: all .5s ease;
+    }
+}
+.two--butnext{
+    width: 50px;
+    height: 50px;
+    transform: rotate(-45deg);
+    border: 3px solid #DB3138;
+    position: relative;
+    cursor: pointer;
+    transition: all .5s ease;
+
+    & div{
+        background-image: url('../image/dashicons_arrow-left-alt2.svg');
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        left: 11px;
+        top: 10px;
+        transform: rotate(-135deg);
+    }
+
+    &:hover{
+        transform: translate(7px, -7px) rotate(-45deg);
+        transition: all .5s ease;
+    }
+}

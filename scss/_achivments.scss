@@ -1,0 +1,142 @@
+.title_acivments{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 140%;
+    letter-spacing: 2.6px;
+    text-transform: uppercase;
+    max-width: 636px;
+    max-height: 166px;
+    position: relative;
+}
+.title_after{
+    background-image: url('../image/Group\ 2.svg');
+    margin-top: 40px;
+    display: inline-block;
+    width: 146px;
+    height: 14px;
+}
+.podtitle_achivments{
+    margin-top: 60.86px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    max-width: 566px;
+    line-height: 120%;
+    letter-spacing: 0.72px;
+}
+.section_two{
+    display: inline-flex;
+    justify-content: flex-end;
+    transform: translate(833px, -146px);
+    cursor: pointer;
+}
+.achivens_tableone{
+    display: flex;
+    flex-direction: column;
+}
+
+// Card nomber
+
+.card_nomberone{
+    width: 318px;
+    height: 177px;
+    max-width: 318px;
+    max-height: 177px;
+    border: 2px solid rgba(137, 137, 137, 1);
+    transition-duration: 0.5s;
+
+    &:hover{
+        background-color: #fff;
+        transition-duration: 0.5s;
+    }
+
+    &:hover .nomberone_txt{
+        color: black;
+        transition-duration: 0.5s;
+    }
+}
+.title_nomone{
+    color: #DB3138;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 140%;
+    letter-spacing: 2.6px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 15px;
+}
+.nomberone_txt{
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.achivens_tabletwo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.card_nombertwo{
+    width: 318px;
+    height: 177px;
+    max-width: 318px;
+    max-height: 177px;
+   border: 2px solid rgba(137, 137, 137, 1);
+   transition-duration: 0.5s;
+
+   &:hover{
+    background-color: #fff;
+    transition-duration: 0.5s;
+   }
+
+   &:hover .nombertwo_txt{
+    color: black;
+    transition-duration: 0.5s;
+   }
+   &:hover .nombertwo_txtimg{
+    color: black;
+    transition-duration: 0.5s;
+   }
+}
+.title_nomtwo{
+    color: #DB3138;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 140%;
+    letter-spacing: 2.6px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 15px;
+}
+.nombertwo_txt{
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.title_nomtwoimg{
+    background-image: url('../image/Group\ 19.svg');
+    background-repeat: no-repeat;
+    width: 39px;
+    height: 46px;
+    position: relative;
+    right: -50%;
+    top: 23px;
+}
+.nombertwo_txtimg{
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 35px;
+}

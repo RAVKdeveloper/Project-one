@@ -1,0 +1,196 @@
+
+header{
+    max-width: 1980;
+    min-height: 1000px;
+    max-height: 1000px;
+    background-image: url('../image/Rectangle\ 64.png');
+    background-repeat: no-repeat;
+}
+.header_navigation{
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+    transform: translate(0px, 40px);
+    margin-left: 312px;
+
+    & div{
+        display: inline-block;
+        color: white;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 120%;
+        letter-spacing: 0.72px;
+        cursor: pointer;
+        transition-duration: 0.4s;
+    }
+
+    & div:hover{
+        color: #DB3138;
+        transition-duration: 0.4s;
+    }
+}
+h1{
+    color: #DB3138;
+    font-size: 150px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 125%;
+    transform: translate(0,237px);
+
+    &::after{
+        content: '';
+        display: block;
+        background-image: url('../image/Group\ 2.svg');
+        width: 146px;
+        height: 14px;
+        margin-left: 687px;
+        margin-top: 15px;
+    }
+}
+.podtitle{
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 120%;
+    max-width: 837px;
+    max-height: 196px;
+    margin-top: 288px;
+    margin-left: 390px;
+}
+.button_headerrow{
+    display: flex;
+    justify-content: center;
+}
+.button-header{
+    background-color: #DB3138;
+    margin-top: 35px;
+    width: 110px;
+    height: 61px;
+    cursor: pointer;
+    transition: width .6s;
+
+    &:hover{
+        width: 200px;
+        transition: width .6s;
+    }
+
+    & span{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        left: 7px;
+        top: 17px;
+        color: white;
+        font-size: 24px;
+        font-weight: 600;
+        min-width: 170px;
+    }
+}
+.headeritem_row{
+display: flex;
+justify-content: space-between;
+margin-top: 61px;
+}
+
+// Addres card
+
+.card_addres{
+    max-width: 640px;
+    width: 640px;
+    height: 213px;
+    max-height: 213px;
+    border-top: 2px solid rgba(255, 255, 255, 0.5);
+    border-right: 2px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+
+    & h4{
+        text-align: center;
+        transform: translate(0, 50px);
+        font-size: 18px;
+        font-weight: 600;
+        color: white;
+        line-height: 140%; 
+        letter-spacing: 0.9px;
+        text-transform: uppercase;
+    }
+}
+
+.addres-txt{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    margin-top: 70px;
+    color: #DB3138;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+// Phone cart
+
+.card_phone{
+    max-width: 640px;
+    width: 640px;
+    height: 213px;
+    max-height: 213px;
+    border-top: 2px solid rgba(255, 255, 255, 0.5);
+    border-right: 2px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+
+    & h4{
+        text-align: center;
+        transform: translate(0, 50px);
+        font-size: 18px;
+        font-weight: 600;
+        color: white;
+        line-height: 140%; 
+        letter-spacing: 0.9px;
+        text-transform: uppercase;
+    }
+}
+.phone-txt{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    margin-top: 70px;
+    color: #DB3138;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+// Working Hous card
+
+.card_workinghours{
+    max-width: 640px;
+    width: 640px;
+    height: 213px;
+    max-height: 213px;
+    border-top: 2px solid rgba(255, 255, 255, 0.5);
+    border-right: 2px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+
+    & h4{
+        text-align: center;
+        transform: translate(0, 50px);
+        font-size: 18px;
+        font-weight: 600;
+        color: white;
+        line-height: 140%; 
+        letter-spacing: 0.9px;
+        text-transform: uppercase;
+    }
+}
+.workinghours-txt{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    margin-top: 70px;
+    color: #DB3138;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+}

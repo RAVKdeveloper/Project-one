@@ -1,0 +1,38 @@
+.title__out--works{
+    text-align: center;
+    color: white;
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 140%; 
+    letter-spacing: 2.6px;
+    text-transform: uppercase;
+}
+.our-works{
+    padding-top: 180px;
+    max-width: 1620px;
+
+  &::before{
+    content: '';
+    display: block;
+    width: 146px;
+    height: 14px;
+    background-image: url('../image/Group\ 2.svg');
+    transform: translate(500%, 110px);
+  }
+}
+.ourworks__column--body{
+    margin-top: 110px;
+}
+
+.ourworks__column--body{
+    display: flex;
+    flex-direction: column;
+}
+.ourworks__row--one{
+    display: flex;
+    flex-direction: row;
+}
+.ourworks__row--one img{
+    width: 255px;
+    height: 230px;
+}

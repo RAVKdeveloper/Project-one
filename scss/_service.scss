@@ -1,0 +1,168 @@
+.servise__container{
+    width: 100%;
+    padding: 0 30px;
+}
+.service__title{
+    color: white;
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 140%;
+    text-align: center;
+    transform: translate(-160px, 0px);
+}
+.title_after-service{
+    background-image: url('../image/Group 2.svg');
+    margin-top: 40px;
+    display: inline-block;
+    width: 146px;
+    height: 14px;
+    margin-left: 700px;
+}
+.button__row--service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-top: 61px;
+    transform: translate(-160px, 0);
+}
+.okleika_btn{
+   padding: 7px;
+   padding-top: 12px;
+    background-color: rgba(219, 49, 56, 1);
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+    width: 171px;
+    height: 75px;
+    text-transform: uppercase;
+    transition: transform .6s ease;
+
+    &:hover{
+        transform: translate(-5px, -5px);
+        transition: transform .6s ease;
+    }
+}
+.detailing_btn{
+    padding: 7px;
+   padding-top: 12px;
+    background-color: transparent;
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+    width: 209px;
+    height: 75px;
+    text-transform: uppercase;
+    transition: transform .6s ease;
+
+    &:hover{
+        background-color: white;
+        border: 1px solid rgba(219, 49, 56, 1);
+        color: black;
+        transform: translate(-5px, -5px);
+        transition: all .6s ease;
+    }
+}
+
+// Card Row
+
+.service__card_row{
+    margin-top: 90px;
+    margin-right: 400px;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+.service_card--oneplenki{
+    max-width: 306px;
+    height: 428px;
+    border: 1px solid #898989;
+    padding-top: 86px;
+    display: inline-block;
+}
+.plenki--img{
+    background-image: url('../image/Group\ 55.svg');
+    width: 70px;
+    height: 56.5px;
+    margin-left: 115px;
+}
+.title--plenki{
+    margin-top: 27.23px;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+.txt--plenki{
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+.button--plenki_body{
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+.button--plenki{
+    width: 58px;
+    height: 41px;
+    background-color: #DB3138;
+    padding: 5px;
+    margin-right: 15px;
+    padding-top: 9px;
+    transition: all .6s ease;
+    cursor: pointer;
+
+    & span{
+        font-size: 16px;
+        font-weight: 600;
+        color: white;
+        line-height: 140%;
+        letter-spacing: 0.9px;
+        text-transform: uppercase;
+    }
+
+    &:hover{
+        width: 120px;
+        margin-left: 10px;
+        transition: all .6s ease;
+    }
+}
+.two--plenki{
+    background-image: url('../image/Group\ 53.svg');
+    width: 70px;
+    height: 56.5px;
+    margin-left: 125px;
+    background-repeat: no-repeat;
+    position: relative;
+    
+    &:after{
+     content: '';
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     width: 80%;
+     height: 2px;
+     background-color: white;
+    }
+}
+.three-plenki{
+    background-image: url('../image/Group\ 52.svg');
+    width: 70px;
+    height: 56.5px;
+    margin-left: 125px;
+    background-repeat: no-repeat;
+}
+.four--plenki{
+    background-image: url('../image/Group\ 54.svg');
+    width: 70px;
+    height: 56.5px;
+    margin-left: 125px;
+    background-repeat: no-repeat;
+}
